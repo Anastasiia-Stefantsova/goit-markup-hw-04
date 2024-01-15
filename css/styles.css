@@ -84,7 +84,9 @@ img {
     gap: 40px;
     align-items: center;
     display: flex;
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo {
@@ -112,9 +114,7 @@ img {
     padding-top: 24px;
     padding-bottom: 24px;
     display: inline-block;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .nav-link.current {
@@ -148,13 +148,14 @@ img {
 .heder-adresss-list {
     display: flex;
     gap: 40px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 .heder-address-item {
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .heder-address-link {
