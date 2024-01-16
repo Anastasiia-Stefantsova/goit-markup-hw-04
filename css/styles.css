@@ -505,7 +505,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     cursor: pointer;
-    padding: 40px 32px 164px 32px;
+    padding: 40px 32px;
+    padding-bottom: 164px;
 }
 
 .portfolio-item-list:hover .portfolio-hover-text {
