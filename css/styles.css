@@ -315,6 +315,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .team-icon {
@@ -451,7 +453,7 @@ img {
 .portfolio {
     background: #FFF;
     padding: 120px 0 120px 0;
-    margin-bottom: 8px;
+    
 }
 
 .portfolio-container {
@@ -494,9 +496,7 @@ img {
     top: 0;
     display: flex;
     align-items: center;
-    padding: 40px 32px;
     background: #4D5AE5;
-    color: #F4F4FD;
     height: 100%;
     width: 100%;
     transform: translateY(100%);
@@ -505,6 +505,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     cursor: pointer;
+    padding: 40px 32px 164px 32px;
 }
 
 .portfolio-item-list:hover .portfolio-hover-text {
@@ -516,10 +517,6 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-}
-
-.portfolio-hover-text {
-    color: #F4F4FD;
 }
 
 .portfolio-item-list:hover {
